@@ -8,7 +8,7 @@ const userSchema = mongoose.Schema({
   state: String,
   city: String,
   gender: String,
-  dob: Number,
+  dob: String,
   age: Number,
 });
 
